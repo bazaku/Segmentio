@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "AZSegmentio"
-  spec.version = "2.2.1"
+  spec.version = "2.2.2"
 
   spec.homepage = "https://github.com/Yalantis/Segmentio"
   spec.summary = "Animated top/bottom segmented control written in Swift!"
@@ -12,6 +12,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = '8.0'
   spec.source       = { :git => "https://github.com/bazaku/Segmentio.git", :tag => spec.version }
+  spec.swift_version = '3.0'
 
   spec.source_files = 'Segmentio/Source/**/*.swift'
   spec.resources = 'Segmentio/Source/Badge/Views/*.xib'

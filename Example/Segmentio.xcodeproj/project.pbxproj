@@ -232,7 +232,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				0F262642822A946CA50DC25B /* [CP] Embed Pods Frameworks */,
-				252D3AEAEF13B143A7D04B54 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -298,7 +297,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Segmentio_Example/Pods-Segmentio_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Segmentio/Segmentio.framework",
+				"${BUILT_PRODUCTS_DIR}/AZSegmentio/Segmentio.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -307,21 +306,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Segmentio_Example/Pods-Segmentio_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		252D3AEAEF13B143A7D04B54 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Segmentio_Example/Pods-Segmentio_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		269ECFC9CB046D6FAC3B00EC /* [CP] Check Pods Manifest.lock */ = {
