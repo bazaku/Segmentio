@@ -1,5 +1,5 @@
 PODS:
-  - AZSegmentio (2.2.1)
+  - AZSegmentio (2.2.3)
 
 DEPENDENCIES:
   - AZSegmentio (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AZSegmentio: e043f46518b8eb75fedf10ba7941d55945f23632
+  AZSegmentio: 0946ca45dd63e346e90f6082e856b7974fbcc9df
 
 PODFILE CHECKSUM: d91c65f69b3039358c9bc5211a63edbf9f9e72b3
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1

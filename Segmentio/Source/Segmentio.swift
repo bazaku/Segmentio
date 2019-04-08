@@ -386,7 +386,7 @@ open class Segmentio: UIView {
             let newIndexPath = IndexPath(item: newIndex, section: numberOfSections - 1)
             segmentioCollectionView?.scrollToItem(
                 at: newIndexPath,
-                at: UICollectionViewScrollPosition(),
+                at: UICollectionView.ScrollPosition(),
                 animated: true
             )
         }
@@ -397,7 +397,7 @@ open class Segmentio: UIView {
             
             segmentioCollectionView?.scrollToItem(
                 at: newIndexPath,
-                at: UICollectionViewScrollPosition(),
+                at: UICollectionView.ScrollPosition(),
                 animated: true
             )
         }

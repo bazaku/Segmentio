@@ -39,7 +39,7 @@ struct SegmentioBuilder {
     }
     
     private static func segmentioOptions(segmentioStyle: SegmentioStyle) -> SegmentioOptions {
-        var imageContentMode = UIViewContentMode.center
+        var imageContentMode = UIView.ContentMode.center
         switch segmentioStyle {
         case .imageBeforeLabel, .imageAfterLabel:
             imageContentMode = .scaleAspectFit
